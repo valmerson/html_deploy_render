@@ -7,5 +7,8 @@ def index():
   return "Olá, </b>Tudo bem</b>?"
 
 @app.route("/teste")
-def index():
-  return "Esse é apenas um </b>teste</b>?"
+def teste():
+  return "Esse é apenas um </b>teste</b> com o qual checamos a implementação de alterações no site" 
+
+
+
